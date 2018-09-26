@@ -1,3 +1,7 @@
+// Michael Havighorst
+// Software Engineering
+// Homework 5
+
 package edu.nd.sarec.railwaycrossing.model.vehicles;
 
 import java.util.Observable;

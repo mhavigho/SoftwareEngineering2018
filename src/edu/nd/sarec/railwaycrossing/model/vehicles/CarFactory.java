@@ -1,3 +1,7 @@
+// Michael Havighorst
+// Software Engineering
+// Homework 5
+
 package edu.nd.sarec.railwaycrossing.model.vehicles;
 
 import java.awt.Point;
@@ -35,7 +39,7 @@ public class CarFactory {
 		if (previousCar == null || location.y < previousCar.getVehicleY()-100){
 			Car car = new Car(location.x,location.y);	
 			double speedVariable = (Math.random() * 10)/10;
-			car.setSpeed((2-speedVariable)*1.5); 
+			car.setSpeed((2-speedVariable)*1.1); 
 			
 			// All cars created by this factory must be aware of crossing gates in the road
 			for(CrossingGate gate: gates){
